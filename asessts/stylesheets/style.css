@@ -109,7 +109,10 @@ html,body{
     padding: 25px 0px 20px 0px;
     margin-left: 108px;
     overflow-x: scroll;
+}
 
+.story-holder::-webkit-scrollbar{
+    display: none;
 }
 
 .storycard{
@@ -146,6 +149,10 @@ html,body{
     width: 70%;
     height: 85vh;
     margin: 10px 0px 0px 100px;
+}
+
+.post-holder::-webkit-scrollbar{
+    display: none;
 }
 
 .post{
